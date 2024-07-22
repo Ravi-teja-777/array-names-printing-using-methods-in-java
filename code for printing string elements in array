@@ -1,0 +1,13 @@
+
+public class github{
+    
+    static void myMethod(){
+        String[] assistans = {"Google","Alexa","Siri","Amazon"};
+        for(String i : assistans){
+            System.out.println("the assistant name is : "+i);
+        }
+    }    
+    public static void main(String args[]){
+        myMethod();
+    }    
+}
